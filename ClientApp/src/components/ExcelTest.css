@@ -1,0 +1,31 @@
+#row1 {
+    padding: 20px 20px 5px 20px;
+    overflow: hidden;
+  }
+  
+  .button-container {
+    display: flex; /* displays flex-items (children) inline */
+    justify-content: space-between; /* MDN: The items are evenly distributed within the alignment container along the main axis. The spacing between each pair of adjacent items is the same. */
+    align-items: center; /* centers them vertically */
+  }
+  
+  .button-left {
+    padding: 0 5px;
+    text-align: center;
+    border: 1px solid;
+    font-size: 75%;
+  }
+  
+  .button-right {
+    padding: 0 5px;
+    text-align: center;
+    border: 1px solid;
+    font-size: 75%;
+  }
+  
+  .button-center {
+    padding: 0 5px;
+    text-align: center;
+    border: 1px solid;
+    font-size: 75%;
+  }
